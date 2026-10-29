@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Teacher Sign In | QNHS Portal</title><link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="panel">
+    <img class="logo" src="Quezon_National_High_School_Seal.png" alt="QNHS school logo">
+    <p class="eyebrow">QNHS Portal</p><h2>Teacher Sign In</h2>
+    <p class="muted">Sign in using your teacher account credentials.</p>
+    <form action="dashboard-teacher.html" method="get">
+      <label for="email">Email or username</label>
+      <input id="email" name="username" type="text" autocomplete="username" placeholder="Enter email or username" required>
+      <label for="password">Password</label>
+      <input id="password" name="password" type="password" autocomplete="current-password" placeholder="Enter password" required>
+      <button class="btn primary" type="submit">Sign In</button>
+    </form>
+    <p class="notice">Don't have an account? <a href="register-teacher.html">Create account</a></p>
+    <a class="back" href="index.html">← Back to portal home</a>
+  </main>
+</body>
+</html>
